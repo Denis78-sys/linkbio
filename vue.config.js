@@ -1,4 +1,4 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
-  baseUrl: "/linkbio",
+  publicPath: process.env.NODE_ENV === "production" ? "/linkbio/" : "/",
 };
