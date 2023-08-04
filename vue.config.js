@@ -1,3 +1,8 @@
 /* eslint-disable prettier/prettier */
-export const publicPath =
-  process.env.NODE_ENV === "production" ? "/linkbio/" : "/";
+module.exports = {
+  pluginOptions: {
+    ssr: {
+      serverEntry: "./server.js", // Caminho para o arquivo "server.js" criado anteriormente
+    },
+  },
+};

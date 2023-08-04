@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "serve": "node server.js",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-server-renderer": "^2.7.14"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
