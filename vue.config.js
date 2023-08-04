@@ -1,4 +1,3 @@
 /* eslint-disable prettier/prettier */
-module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/linkbio/" : "/",
-};
+export const publicPath =
+  process.env.NODE_ENV === "production" ? "/linkbio/" : "/";
