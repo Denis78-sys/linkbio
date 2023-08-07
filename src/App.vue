@@ -19,14 +19,8 @@
 
     <body>
       <header>
-        <!--<div class="circle-photo">
+        <div class="circle-photo">
           Coloque aqui sua foto com formato de círculo
-        </div>-->
-        <div class="circle-img">
-          <img
-            src="assets/imagens/LOGO_DENIS.png"
-            alt="Imagem em formato de círculo"
-          />
         </div>
         <h1>Denis Marques</h1>
         <p class="descricao">
@@ -132,27 +126,15 @@ header h1 {
   margin-bottom: 0%;
 }
 
-/*.circle-photo {
+.circle-photo {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  /*background-image: url("./assets/imagens/LOGO_DENIS.png");*/
-/*background-size: cover;
+  background-image: url("./assets/imagens/LOGO_DENIS.png");
+  background-size: cover;
   margin: 0 auto;
-}*/
+}
 /* ... (código anterior) ... */
-.circle-img {
-  width: 150px; /* Defina a largura da imagem */
-  height: 150px; /* Defina a altura da imagem */
-  border-radius: 50%; /* Isso cria o efeito de círculo */
-  overflow: hidden; /* Certifica-se de que a imagem permaneça dentro do círculo */
-}
-
-.circle-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* A imagem será dimensionada para caber no círculo */
-}
 .services {
   text-align: center;
   padding: 20px;
