@@ -109,7 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Definimos a altura mínima da página para 100% da altura da viewport */
-  position: relative;
+  /*position: relative;*/
 }
 main {
   flex: 1;
