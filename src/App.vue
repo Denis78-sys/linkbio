@@ -130,7 +130,7 @@ header h1 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-image: url("assets/imagens/LOGO_DENIS.png");
+  background-image: url("./assets/imagens/LOGO_DENIS.png");
   background-size: cover;
   margin: 0 auto;
 }
